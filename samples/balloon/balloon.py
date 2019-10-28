@@ -48,8 +48,8 @@ COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
 # Directory to save logs and model checkpoints, if not provided
 # through the command line argument --logs
 DEFAULT_LOGS_DIR = os.path.join(ROOT_DIR, "logs")
-NAME_OF_PROJECT = "tool_disassembly"
-AREAS_OF_INTEREST_NAMES = ["screw","gear","cover"]
+NAME_OF_PROJECT = "electric_engine"
+AREAS_OF_INTEREST_NAMES = ["screw","cover","poltopf","gear","gearbox","drivesnail","brushholder","anker","screwdriver","pickbox","roundmarker","toolbox","squaremarker"]
 
 ############################################################
 #  Configurations
